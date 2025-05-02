@@ -3,3 +3,4 @@ openai
 scikit-learn
 numpy
 pandas
+python-dotenv
