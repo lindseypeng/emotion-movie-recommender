@@ -8,7 +8,6 @@ from dotenv import load_dotenv
 
 
 
-
 @st.cache_resource
 def load_data():
     metadata = pd.read_json("movies_metadata.json")
@@ -37,8 +36,6 @@ def recommend_movies(query, metadata, embeddings, top_n=3):
 # Streamlit UI
 st.title("🎬 Movie Emotion Recommender")
 st.markdown("Enter a feeling or vibe and get movies that match emotionally!")
-
-st.title("🎬 Movie Emotion Recommender")
 
 # Ask user for their OpenAI API key
 user_api_key = st.text_input("🔑 Enter your OpenAI API key", type="password")
