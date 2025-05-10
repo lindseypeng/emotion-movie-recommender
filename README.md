@@ -92,4 +92,5 @@ Inspired by conversations about taste, art, and emotional truth — thank you **
 
 Feel free to reach out with questions, suggestions, or emotional movie recs!  
 [Lindsey Peng] – [lindseypeng873@gmail.com] – [https://www.linkedin.com/in/lindsey-peng-71382986/]
+
 [Chola Chisengalumbwe]  – [https://www.linkedin.com/in/chola-chisengalumbwe-80049880/]
