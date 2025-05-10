@@ -80,53 +80,11 @@ We used the OpenAI API to tag ~5,000 TMDb movies using four emotional dimensions
 Cosine similarity compares **angle** (not length) between vectors — perfect for capturing **semantic alignment** in text-based embeddings.  
 Other distances (e.g. Euclidean) can distort meaning by over-weighting magnitude, especially in high-dimensional space.
 
----
 
-## 📊 Evaluation (or Lack Thereof)
-
-No traditional evaluation (e.g. Precision@K) was performed because:
-- Emotional fit is **subjective**
-- Standard metrics require labeled ground truth, which we don’t have
-
-### Future Evaluation Ideas:
-- Collect **thumbs up/down** feedback from users
-- Ask: *“Did this match how you wanted to feel?”*
-- Track engagement over time and refine tag quality
-
----
-
-## 🔄 Lessons & Next Steps
-
-### Optimizing vs. Exploring
-- Traditional recommenders optimize for past behavior — but risk limiting discovery
-- Our goal: build tools that help users **name and explore** emotional needs, not just reinforce them
-
-> 💬 *“Success isn’t just relevance — it’s resonance.”*
-
-### Next Steps
-- Add user feedback loop
-- Improve emotional tag consistency with multi-rater checks or LLM validation
-- Let users **tag themselves emotionally** to personalize recommendations
-
----
-
-## 📁 Project Structure
-
-```
-emotion_recommender/
-├── data/                     # Raw and processed TMDb data
-├── tagging/                  # LLM API tagging scripts
-├── embedding/                # Embedding generation + similarity matching
-├── app/                      # User-facing app (e.g. Streamlit)
-├── utils/                    # Helper functions
-└── README.md                 # This file
-```
-
----
 
 ## 🤝 Acknowledgements
 
-Inspired by conversations about taste, art, and emotional truth — thank you to friends who challenged the algorithmic way of seeing.
+Inspired by conversations about taste, art, and emotional truth — thank you **Chola Chisengalumbwe** who challenged our algorithmic way of seeing.
 
 ---
 
@@ -134,3 +92,4 @@ Inspired by conversations about taste, art, and emotional truth — thank you to
 
 Feel free to reach out with questions, suggestions, or emotional movie recs!  
 [Lindsey Peng] – [lindseypeng873@gmail.com] – [https://www.linkedin.com/in/lindsey-peng-71382986/]
+[Chola Chisengalumbwe]  – [https://www.linkedin.com/in/chola-chisengalumbwe-80049880/]
