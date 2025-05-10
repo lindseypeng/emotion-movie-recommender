@@ -12,6 +12,28 @@
 
 ---
 
+## 🚀 Try the App
+
+🔗 [Launch the Emotion-Based Recommender App](https://emotion-movie-recommender-gnfazrztxfmeyghyf444xo.streamlit.app/)
+
+> ⚠️ The app requires an OpenAI API key to function.  
+> Add your API key as a secret in Streamlit:  
+> Go to `Settings > Secrets` and add:
+```
+OPENAI_API_KEY = "your_key_here"
+```
+
+---
+
+## 🖼️ Example Output
+
+Here's an example of a user searching for:  
+`Self-destructive dramedy, esp. about egotistic writers`
+
+![Example Output](example_screenshot.jpeg)
+
+---
+
 ## 🔍 Problem
 
 Traditional recommender systems often suggest movies by:
@@ -32,13 +54,13 @@ This project aims to recommend movies based on **emotional resonance**, not just
 We used the OpenAI API to tag ~5,000 TMDb movies using four emotional dimensions:
 
 ```json
-{
+\{
   "title": "Movie Title",
   "emotional_experience": ["deep grief", "hopeful release"],
   "relational_themes": ["estranged siblings"],
   "life_moments": ["coming to terms with loss"],
   "aesthetic": ["muted tones", "slow pacing"]
-}
+\}
 ```
 
 ### 2. **Embedding & Similarity Matching**
@@ -111,4 +133,4 @@ Inspired by conversations about taste, art, and emotional truth — thank you to
 ## 📬 Contact
 
 Feel free to reach out with questions, suggestions, or emotional movie recs!  
-[Your Name] – [your.email@example.com] – [LinkedIn or GitHub link]
+[Lindsey Peng] – [lindseypeng873@gmail.com] – [https://www.linkedin.com/in/lindsey-peng-71382986/]
